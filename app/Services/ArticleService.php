@@ -72,7 +72,7 @@ class ArticleService
     public function persist(): bool
     {
         dump('Storing data...');
-        
+
         foreach ($this->cleaned_data as $key => $data) {
             Article::updateOrCreate([
                 'title' => $data['title']
@@ -88,5 +88,9 @@ class ArticleService
         return true;
     }
 
+    public function getAll()
+    {
+        return Article::latest()->get();
+    }
 
 }
