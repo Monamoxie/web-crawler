@@ -15,10 +15,9 @@ A simple web crawler.
   - Clone the repo
   - CD into cloned directory and run  `touch .env` to create a new .env file
   - Copy all contents in .env.example into newly created .env file
-  - Install composer  §composer install`
+  - Install composer  `composer install`
   - Install npm modules  `npm install`
-  - Generate a new for development purposes.
-        <p> `php artisan key:generate`  to  </p>
+  - Generate a new key with `php artisan key:generate`
   - Open PHPMyAdmin or whichever tool you use and create a new mysql database
   - Open .env and add db credentials
   - Clear config cache with `php artisan cache:clear`
@@ -27,8 +26,8 @@ A simple web crawler.
 ## Web crawling
  - Crawl news content with  `php artisan web:crawl` 
  
-<p align="center"><img src="resources/images/snapshot.jpeg"></p>
-<p align="center"><img src="resources/images/snapshot.gif"></p>
+<p align="center"><img src="resources/img/snapshot.jpeg"></p>
+<p align="center"><img src="resources/img/snapshot.gif"></p>
  
 ## License
 
