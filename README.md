@@ -1,4 +1,4 @@
-<p align="center"><img src="resources/img/logo.png"></p>
+<p align="left"><img src="resources/img/logo.png"></p>
 
 A simple web crawler. 
 
