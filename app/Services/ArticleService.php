@@ -32,7 +32,7 @@ class ArticleService
         $this->response = $this->client->get($this->endpoint);
 
         if ($this->response) {
-            return $this->parse($this->response);
+            return $this->parse();
         }
 
         return null;
