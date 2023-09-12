@@ -4,8 +4,50 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cf14086919a839fe740e00554e4baff6",
+    "content-hash": "6748eaf9edb03bdd4e217f3abaafaaa1",
     "packages": [
+        {
+            "name": "akibtanjim/google-translate",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/akibtanjim/google-translate.git",
+                "reference": "568c10fb4bd5a600743de0028bac3b535efcf4b7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/akibtanjim/google-translate/zipball/568c10fb4bd5a600743de0028bac3b535efcf4b7",
+                "reference": "568c10fb4bd5a600743de0028bac3b535efcf4b7",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": ">=5.1",
+                "php": ">= 7.1.3"
+            },
+            "type": "laravel",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "akibtanjim",
+                    "email": "akibtanjim@gmail.com"
+                }
+            ],
+            "description": "This package is built for laravel with a view to translate any text from source language to destination language using Google Translate.",
+            "homepage": "https://github.com/akibtanjim/google-translate",
+            "keywords": [
+                "free-google-translate",
+                "google-translate",
+                "laravel"
+            ],
+            "support": {
+                "issues": "https://github.com/akibtanjim/google-translate/issues",
+                "source": "https://github.com/akibtanjim/google-translate/tree/master"
+            },
+            "time": "2018-03-04T18:46:47+00:00"
+        },
         {
             "name": "asm89/stack-cors",
             "version": "v2.1.1",

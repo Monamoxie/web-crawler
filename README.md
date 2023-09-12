@@ -1,10 +1,11 @@
 <p align="center"><img src="resources/img/logo.png"></p>
 
-A simple web crawler. 
+A simple web crawler, with the ability to pull and translate text to English. 
 
 ## Technology Stack and Tools
  
- - Laravel 
+ - Laravel
+ - Google Translate
  - Vue JS
  - MySQL
  - CSS Bootsrap
@@ -28,6 +29,7 @@ A simple web crawler.
  
 <p align="center"><img src="resources/img/snapshot.jpeg"></p>
 <p align="center"><img src="resources/img/snapshot.gif"></p>
+<p align="center"><img src="resources/img/snapshot2.png"></p>
  
 ## License
 
