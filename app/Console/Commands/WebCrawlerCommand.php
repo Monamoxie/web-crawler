@@ -2,6 +2,8 @@
 
 namespace App\Console\Commands;
 
+use App\Contracts\ReaderInterface;
+use App\Jobs\ArticleCrawlerJob;
 use App\Services\ArticleService;
 use Illuminate\Console\Command;
 
@@ -43,9 +45,8 @@ class WebCrawlerCommand extends Command
     public function handle()
     {
         dump('Starting...');
-        if ($this->service->crawl() && $this->service->extract()) {
-            $this->service->persist();
-        }
+
+        ArticleCrawlerJob::dispatch();
         
         dump('Completed...');
         return 0;

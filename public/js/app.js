@@ -5509,11 +5509,11 @@ var render = function render() {
         src: result.image_url,
         alt: result.title
       }
-    })]), _vm._v(" "), _c("h4", [_vm._v(" " + _vm._s(result.title) + " ")]), _vm._v(" "), _c("quote", {
+    })]), _vm._v(" "), _c("h4", [_vm._v(" " + _vm._s(result.title) + " ")]), _vm._v(" "), _c("div", {
       staticClass: "d-block"
     }, [_vm._v(_vm._s(result.excerpt))]), _vm._v(" "), _c("div", {
       staticClass: "date"
-    }, [_vm._v(_vm._s(result.date))])], 1)])]);
+    }, [_vm._v(_vm._s(result.date))])])])]);
   }), 0)]);
 };
 var staticRenderFns = [];

@@ -7,7 +7,7 @@
                    <div>
                         <a :href="result.title_link" target="_blank"><img :src="result.image_url" :alt="result.title"/></a>
                         <h4> {{ result.title }} </h4>
-                        <quote class="d-block">{{ result.excerpt }}</quote>
+                        <div class="d-block">{{ result.excerpt }}</div>
                         <div class="date">{{ result.date }}</div>
                    </div>
                 </div>

@@ -4,7 +4,8 @@ namespace App\Providers;
 
 use App\ApiClients\GuzzleClient;
 use Illuminate\Support\ServiceProvider;
-use App\Contracts\ClientInterface;
+use App\Contracts\ReaderInterface;
+use App\Readers\PolitikSiteReader;
 use GuzzleHttp\Client;
 
 class AppServiceProvider extends ServiceProvider
@@ -16,8 +17,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->bind(ClientInterface::class, function () {
-            return new GuzzleClient(new Client());
+        $this->app->bind(ReaderInterface::class, function () {
+            return new PolitikSiteReader;
         });
     }
 

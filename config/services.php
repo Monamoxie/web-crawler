@@ -30,4 +30,10 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'politik' => [
+        'url' => env('POLITIK_URL'),
+        'source_lang' => env('POLITIK_SOURCE_LANG'),
+        'target_lang' =>  env('POLITIK_TARGET_LANG')
+    ]
+
 ];
