@@ -25,8 +25,11 @@ A simple web crawler, with the ability to pull and translate text to English.
   - Run migrations with `php artisan migrate`
 
 ## Web crawling
- - Crawl news content with  `php artisan web:crawl` 
- 
+ - Run `php artisan web:crawl` 
+
+ ## Demo Link
+ - https://webcrawler.monamoxie.com/
+  
 <p align="center"><img src="resources/img/snapshot.jpeg"></p>
 <p align="center"><img src="resources/img/snapshot.gif"></p>
 <p align="center"><img src="resources/img/snapshot2.png"></p>
